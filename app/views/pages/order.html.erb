@@ -1,10 +1,29 @@
+<%= render 'pages/navbar' %>
 <div class="container">
-	<H1>Orders</H1>
-	<div class="buyit">
-		<form action="http://peekapp.myshopify.com/cart/" method="post">
-		  <input type="hidden" name="id" value="459776465" />
-		  <input type="hidden" name="return_to" value="back" />
-		  <input type="submit" value="BUY NOW" />
-		</form>
+	<div class="row">
+		<div class="col-md-6">
+			<h3>Orders</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tempor urna. In malesuada justo sit amet diam interdum, nec pellentesque lacus gravida.</p>
+		</div>
+
+
+		<div class="col-md-4">
+			<H1>Orders</H1>
+			<div class="buyit">
+				<form action="http://peekapp.myshopify.com/cart/" method="post">
+				  <input type="hidden" name="id" value="459776465" />
+				  <input type="hidden" name="return_to" value="back" />
+				  <input type="submit" value="BUY NOW" />
+				</form><br>
+			<h4>Shipping Notice</h4>
+			<p>Customers purchasing Tiles from Canada will be subject to a $8.00 shipping fee on their order. Customers in the EU and ANZ, will be subject to a $14.00 shipping fee.</p><br>
+
+			<h4>Credit Card Notice</h4>
+			<p>Your credit card will be charged one to two days after placing your order.</p><br>
+
+			<h4>Free Sample</h4>
+			<p>If you would like some samples to see first hand the quality of these Sage Invoices then call us on 0844 3511398 and we'll pop some in the post.</p>
+			</div>
+		</div>
 	</div>
 </div>

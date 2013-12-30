@@ -1,3 +1,4 @@
+<%= render 'layouts/navbar' %>    
     <!-- /Side Menu -->
   
     <!-- Full Page Image Header Area -->
@@ -121,7 +122,7 @@
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center">
             <h3>Order now for Summer 2014</h3>
-            <a href="#" class="btn btn-lg btn-default">ORDER NOW!</a>
+            <%= link_to "ORDER NOW!", order_path, class: "btn btn-lg btn-default" %>
           </div>
         </div>
       </div>
