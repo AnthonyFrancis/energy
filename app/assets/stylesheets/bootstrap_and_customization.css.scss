@@ -1,1 +1,61 @@
 @import 'bootstrap';
+
+.button {
+background: transparent;
+border-color: #737980;
+box-shadow: none;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+-o-box-shadow: none;
+transition: all 200ms linear 0;
+-webkit-transition: all 200ms linear 0;
+-moz-transition: all 200ms linear 0;
+-o-transition: all 200ms linear 0;
+-ms-transition: all 200ms linear 0;
+padding: 10px 20px;
+border-radius: 13px;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+-o-border-radius: 25px;
+border: 2px solid #fff;
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 600;
+display: inline-block;
+position: relative;
+transition: all 200ms linear 0;
+-webkit-transition: all 200ms linear 0;
+-moz-transition: all 200ms linear 0;
+-o-transition: all 200ms linear 0;
+-ms-transition: all 200ms linear 0;
+white-space: nowrap;
+}
+
+.button-row {
+padding-top: 18px;
+padding-bottom: 18px;
+}
+
+.logo-row {
+padding-top: 12px;
+padding-bottom: 18px;
+}
+
+.navbar-inverse {
+background-color: #fff;
+background: rgba(255,255,255,0.9);
+border-color: #090909;
+border-color: #fff;
+}
+
+.button.blue {
+background: #C8F1EC url("//d2tqk49yez7kzo.cloudfront.net/shared/noise-3.png");
+border: none;
+box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+-o-box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+color: #fff !important;
+}
