@@ -33,6 +33,18 @@ transition: all 200ms linear 0;
 white-space: nowrap;
 }
 
+.btn-red {
+color: white;
+background-color: #EB0023;
+border-color: white;
+}
+
+.btn-default {
+color: white;
+background-color: black;
+border-color: white;
+}
+
 .button-row {
 padding-top: 18px;
 padding-bottom: 18px;
