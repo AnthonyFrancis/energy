@@ -33,6 +33,14 @@ transition: all 200ms linear 0;
 white-space: nowrap;
 }
 
+.img-rounded {
+border-radius: 18px;
+display: block;
+max-width: 100%;
+width: 173px;
+height: auto;
+}
+
 .btn-red {
 color: white;
 background-color: #EB0023;
