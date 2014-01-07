@@ -13,6 +13,19 @@ width: 971px;
   padding-top: 215px;
 }
 
+.order {
+  color: #ffffff;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: #333333;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 .portfolio-item {
   margin-bottom: 25px;
 }
@@ -28,6 +41,9 @@ width: 971px;
   height: auto
 }
 
+.colour-change {
+  color: #EB0023;
+}
 
 
 .text-center {
