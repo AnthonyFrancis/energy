@@ -92,4 +92,5 @@ Energy::Application.configure do
   :host => "www.energyborninafrica.com"
 }
 
+
 end

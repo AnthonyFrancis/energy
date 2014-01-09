@@ -12,5 +12,6 @@ class PagesController < ApplicationController
   end
 
   def order
+    @message = Message.new
   end
 end
