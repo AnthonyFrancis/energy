@@ -88,9 +88,7 @@ Energy::Application.configure do
   :enable_starttls_auto => true
 }
 
-  config.action_mailer.default_url_options = {
-  :host => "www.energyborninafrica.com"
-}
+  config.action_mailer.default_url_options = { :host => "http://www.energyborninafrica.com" }
 
 
 end
