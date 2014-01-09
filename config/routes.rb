@@ -8,7 +8,7 @@ Energy::Application.routes.draw do
   
 
   match 'contact' => 'contact#new', :as => 'contact', :via => :get
-  match "contact" => "contact#create", :as => "dispatch_email", :via => :post
+  match "contact" => "contact#create", :as => "contact_path", :via => :post
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
