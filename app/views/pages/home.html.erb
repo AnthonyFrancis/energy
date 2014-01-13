@@ -3,6 +3,18 @@
 .services {
 padding-top: 121px;
 }
+.mobile {
+  margin-left: -4px;
+}
+
+.home-image-mobile {
+display: block;
+max-width: 100%;
+width: 159px;
+height: auto;
+margin-left: 76px;
+margin-top: 20px;
+}
 
 </style>
 
@@ -10,7 +22,7 @@ padding-top: 121px;
     <!-- /Side Menu -->
   
     <!-- Full Page Image Header Area -->
-    <div id="top" class="header">
+    <div id="top" class="header visible-md visible-lg">
       <!--
       <div class="vert-text carousel-caption">
         <h1>Energy</h1>
@@ -34,7 +46,31 @@ padding-top: 121px;
           </div>
         </div>
       </div>
-      
+    </div>
+    <!-- /Full Page Image Header Area -->
+    
+    <!-- Mobile Header Area -->
+    <div id="top" class="header visible-xs">
+      <div class="container">
+        <div class="home-body-mobile">
+
+          <div class="row">
+            <div class="col-xs-4 col-lg-6 c-caption text-center">
+               <h1>Africa's greatest  </h1>
+              <h1>secret in a can.</h1>
+              <a href="#services" class="btn btn-red btn-lg">Learn More</a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-2">
+              <img src="assets/energy_drink.png" alt="Responsive image" class="home-image-mobile">
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
     </div>
     <!-- /Full Page Image Header Area -->
 
@@ -49,9 +85,10 @@ padding-top: 121px;
           </div>
         </div>
         <div class="row">
-         
           
-          <div class="col-xs-4 col-md-4 text-center">
+
+          
+          <div class="col-xs-4 col-md-4 col-lg-4 text-center">
             <div class="service-item">
               <img src="assets/kola-nut.jpg" alt="..." class="img-rounded">
               <div class="font-colour">
@@ -63,7 +100,8 @@ padding-top: 121px;
             </div>
           </div>
 
-          <div class="col-xs-4 col-md-4 text-center">
+
+          <div class="col-xs-4 col-md-4 text-center visible-md visible-lg">
             <div class="service-item">
               <img src="assets/baobab.jpg" alt="..." class="img-rounded">
               <div class="font-colour">
@@ -74,7 +112,7 @@ padding-top: 121px;
             </div>
           </div>
 
-          <div class="col-xs-4 col-md-4 text-center">
+          <div class="col-xs-4 col-md-4 text-center visible-md visible-lg">
             <div class="service-item">
               <img src="assets/guarana.jpg" alt="..." class="img-rounded">
               <div class="font-colour">
@@ -84,7 +122,37 @@ padding-top: 121px;
             </div>
           </div>
 
+
+          </div>
         </div>
+
+        <!-- Mobile -->
+
+          <div class="row mobile">
+            <div class="col-xs-4 col-md-4 col-sm-offset-4 text-center visible-xs">
+              <div class="service-item">
+                <img src="assets/baobab.jpg" alt="..." class="img-rounded">
+                <div class="font-colour">
+                  <h4>Baobab | picked from the tree of life</h4>
+                  <p>Baobab contains six times as such vitamin C than Oranges, twice as much Calcium as milk and five times more potassium as Bananas.</p>
+                  <p>The tree on which the fruit grows is known to natives as the 'tree of life' and has been known to live for over 6,000 years.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mobile">
+             <div class="col-xs-4 col-md-4 text-center visible-xs">
+              <div class="service-item">
+                <img src="assets/guarana.jpg" alt="..." class="img-rounded">
+                <div class="font-colour">
+                  <h4>Guarana | memory retention</h4>
+                  <p>Test on other mammals have shown increased memory retention and physical endurance.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
       </div>
     </div>
     <!-- /Services -->
@@ -101,7 +169,7 @@ padding-top: 121px;
     <div class="call-to-action features">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
+          <div class="col-xs-4 col-md-6 col-md-offset-3 text-center">
             <%= link_to "CONTACT US", contact_path, class: "btn btn-lg btn-red" %>
           </div>
         </div>
@@ -113,7 +181,7 @@ padding-top: 121px;
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
+          <div class="col-xs-4 col-md-6 col-md-offset-3 text-center">
             <ul class="list-inline">
               <li><a href="https://twitter.com/@Energy_Born"><i class="fa fa-twitter fa-3x"></i></a></li>
               <li><a href="https://www.facebook.com/borninafrica"><i class="fa fa-facebook fa-3x"></i></a></li>

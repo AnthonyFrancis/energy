@@ -13,6 +13,10 @@ width: 971px;
   padding-top: 215px;
 }
 
+.home-body-mobile {
+  padding-top: 135px;
+}
+
 .order {
   color: #ffffff;
   display: table;
@@ -231,21 +235,4 @@ i.scroll {
 
 i.scroll:hover {
   color: #0a5175;
-}
-/* Responsive */
-
-@media (max-width: 768px) {
-  
-  .header {
-  background: url(../img/bg.jpg) no-repeat center center scroll; 
-  }
-
-  .callout {
-  background: url(../img/callout.jpg) no-repeat center center scroll; 
-  }
-
-  .map {
-  height: 75%;
-  }
-
 }
