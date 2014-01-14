@@ -11,6 +11,9 @@ class PagesController < ApplicationController
   def contact
   end
 
+  def test
+  end
+
   def order
     @message = Message.new
   end

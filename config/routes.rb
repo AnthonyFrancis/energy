@@ -3,6 +3,7 @@ Energy::Application.routes.draw do
   get "contact/create"
   root "pages#home"
   get "order" => "pages#order"
+  get "test" => "pages#test"
   get "products" => "pages#products"
   get "buy" => "pages#buy"
   
