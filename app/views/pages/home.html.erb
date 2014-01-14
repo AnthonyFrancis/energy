@@ -16,180 +16,146 @@ margin-left: 76px;
 margin-top: 20px;
 }
 
+.home-image {
+  display: block;
+  max-width: 100%;
+  width: 210px;
+  height: auto
+}
+
+.home-body {
+  padding-top: 215px;
+}
+
+.c-caption {
+color: white;
+z-index: 10;
+text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+
+}
 
 </style>
 
-<%= render 'layouts/navbar' %>    
-  
+<%= render 'layouts/navbar' %>
+
     <!-- Full Page Image Header Area -->
-    <div id="top" class="header visible-md visible-lg">
-
-      -->
-      <div class="container">
-        <div class="home-body">
-          <div class="col-lg-5 col-lg-offset-0">
-            <img src="assets/energy_drink.png" alt="Responsive image" class="home-image">
-          </div>
-          <div class="col-lg-6 c-caption">
-            <h1>A super fruit energy drink</h1>
-            <h1>made using Africa's</h1>
-            <h1>greatest secret's, the</h1>
-            <h1>Baobab Superfruit</h1>
-            <h1>Guarana and Kola Nut.</h1>
-            <a href="#services" class="btn btn-red btn-lg">Learn More</a>
-          </div>
+    <div id="top" class="header">
+        <div class="container">
+            <div class="home-body">
+                <div class="col-lg-6 c-caption text-center visible-xs">
+                    <h1>Africa's greatest</h1>
+                    <h1>secret in a can.</h1>
+                    <a href="#services" class="btn btn-primary btn-lg">Learn More</a>
+                </div>
+                <div class="col-lg-5 col-lg-offset-0">
+                    <img src="assets/energy_drink.png" alt="Responsive image" class="home-image">
+                </div>
+                <div class="col-lg-6 c-caption visible-md visible-lg">
+                    <h1>A super fruit energy drink</h1>
+                    <h1>made using Africa's</h1>
+                    <h1>greatest secret's, the</h1>
+                    <h1>Baobab Superfruit</h1>
+                    <h1>Guarana and Kola Nut.</h1>
+                    <a href="#services" class="btn btn-primary btn-lg">Learn More</a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <!-- /Full Page Image Header Area -->
-    
-    <!-- Mobile Header Area -->
-    <div id="top" class="header visible-xs">
-      <div class="container">
-        <div class="home-body-mobile">
 
-          <div class="row">
-            <div class="col-xs-4 col-lg-6 c-caption text-center">
-               <h1>Africa's greatest  </h1>
-              <h1>secret in a can.</h1>
-              <a href="#services" class="btn btn-red btn-lg">Learn More</a>
+    <!-- Intro -->
+    <div id="about" class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h2>We are all Born in Africa</h2>
+                    <p class="lead">Home to the Rift Valley, and to the earliest known evidence of mankind, Africa is where we all came from once upon a time.</p>
+                    <p class="lead">Born in Africa has been created to bring you our best kept secrets.</p>
+                </div>
             </div>
-          </div>
-
-          <div class="row">
-            <div class="col-xs-2">
-              <img src="assets/energy_drink.png" alt="Responsive image" class="home-image-mobile">
-            </div>
-          </div>
-
-          
         </div>
-      </div>
     </div>
-    <!-- /Full Page Image Header Area -->
+    <!-- /Intro -->
 
   
+
     <!-- Services -->
-    <div id="services" class="services features2">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-4 col-md-4 col-md-offset-4 text-center font-colour">
-            <h2>Product information</h2>
-            <hr>
-          </div>
-        </div>
-        <div class="row">
-          
-
-          
-          <div class="col-xs-4 col-md-4 col-lg-4 text-center">
-            <div class="service-item">
-              <img src="assets/kola-nut.jpg" alt="..." class="img-rounded">
-              <div class="font-colour">
-                <h4>Kola nut | restore vitality</h4>
-                <p>Fruit of the kola tree, native to the tropical rainforest of Africa.</p>
-
-                <p>The origin of the term "cola", it is chewed in many West African cultures, individually or in a social setting, to restore vitality.</p>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-xs-4 col-md-4 text-center visible-md visible-lg">
-            <div class="service-item">
-              <img src="assets/baobab.jpg" alt="..." class="img-rounded">
-              <div class="font-colour">
-                <h4>Baobab | picked from the tree of life</h4>
-                <p>Baobab contains six times as such vitamin C than Oranges, twice as much Calcium as milk and five times more potassium as Bananas.</p>
-                <p>The tree on which the fruit grows is known to natives as the 'tree of life' and has been known to live for over 6,000 years.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xs-4 col-md-4 text-center visible-md visible-lg">
-            <div class="service-item">
-              <img src="assets/guarana.jpg" alt="..." class="img-rounded">
-              <div class="font-colour">
-                <h4>Guarana | memory retention</h4>
-                <p>Test on other mammals have shown increased memory retention and physical endurance.</p>
-              </div>
-            </div>
-          </div>
-
-
-          </div>
-        </div>
-
-        <!-- Mobile -->
-
-          <div class="row mobile">
-            <div class="col-xs-4 col-md-4 col-sm-offset-4 text-center visible-xs">
-              <div class="service-item">
-                <img src="assets/baobab.jpg" alt="..." class="img-rounded">
-                <div class="font-colour">
-                  <h4>Baobab | picked from the tree of life</h4>
-                  <p>Baobab contains six times as such vitamin C than Oranges, twice as much Calcium as milk and five times more potassium as Bananas.</p>
-                  <p>The tree on which the fruit grows is known to natives as the 'tree of life' and has been known to live for over 6,000 years.</p>
+    <div id="services" class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <h2>Product information</h2>
+                    <hr>
                 </div>
-              </div>
             </div>
-          </div>
-
-          <div class="row mobile">
-             <div class="col-xs-4 col-md-4 text-center visible-xs">
-              <div class="service-item">
-                <img src="assets/guarana.jpg" alt="..." class="img-rounded">
-                <div class="font-colour">
-                  <h4>Guarana | memory retention</h4>
-                  <p>Test on other mammals have shown increased memory retention and physical endurance.</p>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="service-item">
+                        <img src="assets/kola-nut.jpg" alt="..." class="img-rounded">
+                        <h4>Kola nut | restore vitality</h4>
+                        <p>Fruit of the kola tree, native to the tropical rainforest of Africa.</p>
+                        <p>The origin of the term "cola", it is chewed in many West African cultures, individually or in a social setting, to restore vitality.</p>
+                    </div>
                 </div>
-              </div>
+                <div class="col-md-4 text-center">
+                    <div class="service-item">
+                        <img src="assets/baobab.jpg" alt="..." class="img-rounded">
+                        <h4>Baobab | picked from the tree of life</h4>
+                        <p>Baobab contains six times as such vitamin C than Oranges, twice as much Calcium as milk and five times more potassium as Bananas.</p>
+                        <p>The tree on which the fruit grows is known to natives as the 'tree of life' and has been known to live for over 6,000 years.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="service-item">
+                        <img src="assets/guarana.jpg" alt="..." class="img-rounded">
+                        <h4>Guarana | memory retention</h4>
+                        <p>Test on other mammals have shown increased memory retention and physical endurance.</p>
+                    </div>
+                </div>
             </div>
-          </div>
-
-      </div>
+        </div>
     </div>
     <!-- /Services -->
 
     <!-- Callout -->
     <div class="callout">
-      <div class="vert-text">
-        <h1>Natural Energy</h1>
-      </div>
+        <div class="vert-text">
+            <h1>Natural Energy</h1>
+        </div>
     </div>
     <!-- /Callout -->
 
+
     <!-- Call to Action -->
-    <div class="call-to-action features">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-4 col-md-6 col-md-offset-3 text-center">
-            <%= link_to "CONTACT US", contact_path, class: "btn btn-lg btn-red" %>
-          </div>
+    <div class="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <%= link_to "CONTACT US", contact_path, class: "btn btn-lg btn-primary" %>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <!-- /Call to Action -->
-    
+
     <!-- Footer -->
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-4 col-md-6 col-md-offset-3 text-center">
-            <ul class="list-inline">
-              <li><a href="https://twitter.com/Born_in_Africa"><i class="fa fa-twitter fa-3x"></i></a></li>
-              <li><a href="https://www.facebook.com/borninafrica"><i class="fa fa-facebook fa-3x"></i></a></li>
-              
-            </ul>
-            <div class="top-scroll">
-              <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <ul class="list-inline">
+                      <li><a href="https://twitter.com/Born_in_Africa"><i class="fa fa-twitter fa-3x"></i></a></li>
+                      <li><a href="https://www.facebook.com/borninafrica"><i class="fa fa-facebook fa-3x"></i></a></li>
+                    </ul>
+                    <div class="top-scroll">
+                        <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
+                    </div>
+                    <hr>
+                    <p>&copy; Copyright 2014 Born in Africa Superfruit Energy Drink.</p>
+                    <p>All rights reserved.</p>
+                </div>
             </div>
-            <hr>
-            <p>&copy; Copyright 2014 Born in Africa Superfruit Energy Drink.</p>
-            <p>All rights reserved.</p>
-          </div>
         </div>
-      </div>
     </footer>
     <!-- /Footer -->
 
