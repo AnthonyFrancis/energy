@@ -7,8 +7,7 @@ margin-bottom: auto;
 border: 1px solid transparent;
 }
 
-.img-rounded {
-border-radius: 100px;
+.img {
 max-width: 500px;
 width: auto;
 height: 374px;
@@ -16,15 +15,37 @@ height: 374px;
 
 </style>
 
-<%= render 'pages/navbar' %>
+<nav class="navbar transparent navbar-inverse navbar-fixed navbar-default" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+
+      <div class="logo-row">
+        <a class="navbar-brand logo-nav visible-md visible-lg" href="/"><img src="assets/logo.png"></a>
+        <a class="navbar-brand logo-nav visible-xs" href="/"><img src="assets/logomobile.png"></a>
+      </div>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <div class="button-row">
+        </div>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+
+
 <div class="services">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
         <h3>Product Description - see below</h3>
         <p>A super fruit energy drink with natural caffeine and Baobab</p>
-        <div class="col-md-4 col-md-offset-2">
-          <img src="assets/energy_drink.png" alt="..." class="img-rounded">
+        <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-2">
+          <img src="assets/energy_drink.png" alt="..." class="img">
         </div>
       </div>
 
@@ -48,7 +69,7 @@ height: 374px;
               </div>
 
               <div class="form-group">
-                <%= form.text_area :body, class: "form-control", :placeholder => "Message" %>
+                <%= form.text_area :body, class: "form-control", :id => "message_area", :cols => 18, :rows => 10,  :placeholder => "Message" %>
               </div>
 
 
@@ -64,21 +85,21 @@ height: 374px;
 </div>
 
 <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3 text-center">
-        <ul class="list-inline">
-        <!--  <li><i class="fa fa-facebook fa-3x"></i></li> -->
-        <li><a href="https://twitter.com/Born_in_Africa"><i class="fa fa-twitter fa-3x"></i></a></li>
-        </ul>
-        <div class="top-scroll">
-          <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <ul class="list-inline">
+            <!--  <li><i class="fa fa-facebook fa-3x"></i></li> -->
+            <li><a href="https://twitter.com/Born_in_Africa"><i class="fa fa-twitter fa-3x"></i></a></li>
+            <li><a href="https://www.facebook.com/borninafrica"><i class="fa fa-facebook fa-3x"></i></a></li>
+            </ul>
+            <div class="top-scroll">
+              <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
+            </div>
+            <hr>
+            <p>&copy; Copyright 2014 Born in Africa Superfruit Energy Drink.</p>
+            <p>All rights reserved.</p>
+          </div>
         </div>
-        <hr>
-        <p>&copy; Copyright 2014 Born in Africa Superfruit Energy Drink. All rights reserved.</p>
       </div>
-    </div>
-  </div>
 </footer>
-
-
