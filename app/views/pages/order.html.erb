@@ -175,8 +175,16 @@ height: 225px;
                 <%= form.text_field :email, class: "form-control", :placeholder => "Email" %>
               </div>
 
+              <!-- <div class="form-group">
+                <%= form.select :subject, class: "form-control", :placeholder => "Subject" %>
+              </div> --> <!-- old embedded ruby form code -->
+
               <div class="form-group">
-                <%= form.text_field :subject, class: "form-control", :placeholder => "Subject" %>
+                <select id="message_subject" name="message[subject]" class="form-control">
+                  <option value="Placing and order">Placing an order</option>
+                  <option value="Free Sample">Free Sample</option>
+                  <option value="Other">Other</option>
+                </select>
               </div>
 
               <div class="form-group">
